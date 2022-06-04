@@ -1,0 +1,61 @@
+
+/*FONTES IMPORTADAS*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap');
+
+/*
+font-family: 'Roboto Slab', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.conteudo-completo{
+    width: 1024px;
+    margin: 0 auto;
+}
+/*CABEÇALHO*/
+.cabecalho{
+    margin-top: 25px;
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+}
+.logo{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;    
+    background: #292929;
+    color: white;
+    padding: 10px;
+}
+.img-logo{
+    width: 20%;
+}
+.titulo-logo{
+    text-transform: uppercase;
+}
+.cabecalho-navegacao{
+    width: 500px;
+    margin: 30px auto;
+}
+.lista-itens{
+    text-transform: uppercase;
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+}
+.item{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+.item:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background: #292929;
+    color: #fff;
+}

@@ -59,3 +59,61 @@ font-family: 'Open Sans', sans-serif;
     background: #292929;
     color: #fff;
 }
+/*CARROSSEL*/
+.carrossel{
+    width: 1024px;
+    height: 576px;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: all 0.4s;
+}
+.slide{
+    width: 5020px;
+    display: flex;
+    align-items: center;
+}
+.botao-slide{
+    position: absolute;
+    list-style: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+    padding: 10px;
+}
+.botao-slide:hover{
+    transition: 0.4s;
+    transform: scale(1.2);
+    background: #292929;
+    cursor: pointer;
+    color: #fff;
+}
+#voltar{
+    left: 5%;
+}
+#proximo{
+    right: 5%;
+}
+.imagem img{
+    width: 1024px;
+    height: 576px;
+}
+.bolinhas{
+    position: absolute;
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    margin-top: -45px;
+}
+.bolinhas div{
+    transition: all 0.5s;
+    border: 3px solid blue;
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor:pointer;
+}
+.bolinhas div:hover{
+    background: blue;
+}
+.imgAtual{
+    transition: all 0.5s;
+}

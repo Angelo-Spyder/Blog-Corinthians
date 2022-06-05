@@ -123,3 +123,34 @@ font-family: 'Open Sans', sans-serif;
     background: red;
 }
 /*ANÚNCIOS*/
+.anuncios{
+    margin-top:30px ;
+    display: flex;
+    padding: 40px;
+    width: 90%;
+    justify-content: space-between;    
+}
+.anuncio{
+    opacity: 0.8;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anuncio:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+    opacity: 1;
+    font-size: 22px;
+}
+.anuncio img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.anuncio-titulo{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.384);
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Slab', serif;
+}

@@ -126,6 +126,7 @@ font-family: 'Open Sans', sans-serif;
 .anuncios{
     margin-top:30px ;
     display: flex;
+    flex-wrap: wrap;
     padding: 40px;
     width: 90%;
     justify-content: space-between;    
@@ -145,8 +146,7 @@ font-family: 'Open Sans', sans-serif;
 }
 .anuncio img{
     width: 100%;
-    border-radius: 10px;
-    
+    border-radius: 10px;  
 }
 .anuncio-titulo{
     position: absolute;
@@ -180,6 +180,7 @@ font-family: 'Open Sans', sans-serif;
     padding: 10px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 12px;
     width: 100%;
 }

@@ -4,6 +4,9 @@
         width: 100%;
         margin: 0 0;
     }
+    .cabecalho{
+        margin-top: 0;
+    }
     .logo{
         width: 100%;    
     }
@@ -49,4 +52,62 @@
         margin-top: -180px;
     }
     /*ANUNCIOS*/
+    .anuncios{
+        width: 95%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .anuncio{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .anuncio-titulo{
+        font-size: 38px;
+    }
+    /*POSTAGENS*/
+    .noticias{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .conteudo-noticia img{
+        width: 100%;
+        border-radius: 5px;
+    }
+    .conteudo-textos-noticia{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .titulo-noticia{
+        font-size: 30px;
+    }
+    .texto-noticia{
+        font-size: 24px;
+    }
+    /*FORMMULARIO*/
+    .conteudo-formulario{
+        width: 90%;
+    }
+    .campo{
+        width: 100%;
+    }
+    .conteudo-video{
+        margin: 30px auto;
+        width: 80%;
+    }
+    .video{
+        width: 400px;
+    }
+    /*RODAPE*/
+    .rodape-lista{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .rodape-item{
+        margin: 5px 0;
+        border-bottom: 2px solid #fff;
+        width: 90%;
+    }
 }

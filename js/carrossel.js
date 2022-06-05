@@ -1,4 +1,5 @@
 
+//CAPTURA DE DADOS
 var bolinhas = document.querySelector(".bolinhas");
 var quantidade = document.querySelectorAll(".slide .imagem");
 var imagen = document.getElementById("atual");
@@ -7,6 +8,9 @@ var voltar = document.querySelector("#voltar");
 var atual = 0;
 var rolar = true;
 
+var largura = window.screen.width;
+
+//CRIANDO AS BOLINHAS
 for(let i = 0; i < quantidade.length; i++){
     var divBolinhas = document.createElement("div");
     divBolinhas.id = i;
@@ -48,7 +52,11 @@ function slide(){
         atual = quantidade.length - 1
     }
     document.querySelector(".imgAtual").classList.remove("imgAtual");
-    imagen.style.marginLeft = -1024*atual + "px";
+    if(largura < 678){
+        imagen.style.marginLeft = -400*atual + "px";
+    }else{
+        imagen.style.marginLeft = -1024*atual + "px";
+    }
     document.getElementById(atual).classList.add("imgAtual");
 }
 

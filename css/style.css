@@ -205,7 +205,7 @@ font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
 }
-.botao-carregar-mais{
+.botao-conteudo-principal{
     border: none;
     margin: 10px 0;
     padding: 10px;
@@ -216,9 +216,34 @@ font-family: 'Open Sans', sans-serif;
     background: #292929;
     color: #fff;
 }
-.botao-carregar-mais:hover{
+.botao-conteudo-principal:hover{
     font-size: 25px;
     transition: 0.5s;
     cursor: pointer;
     color: aqua;
+}
+/*Formulario*/
+.conteudo-formulario{
+    width: 40%;
+}
+.formulario{
+    background: rgba(0, 0, 0, 0.705);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: left;
+    font-family: 'Open Sans', sans-serif;
+}
+.campo{
+    margin: 10px 0;
+    width: 50%;
+}
+.formulario-texto{
+    font-size: 20px;
+}
+.input-formulario{
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
 }

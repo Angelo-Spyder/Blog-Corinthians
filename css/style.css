@@ -205,3 +205,20 @@ font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
 }
+.botao-carregar-mais{
+    border: none;
+    margin: 10px 0;
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    background: #292929;
+    color: #fff;
+}
+.botao-carregar-mais:hover{
+    font-size: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+    color: aqua;
+}

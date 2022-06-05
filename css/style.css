@@ -109,18 +109,18 @@ font-family: 'Open Sans', sans-serif;
 }
 .bolinhas div{
     transition: all 0.5s;
-    border: 2px solid red;
+    border: 2px solid aqua;
     padding: 8px;
     border-radius: 50%;
     margin-right: 15px;
     cursor:pointer;
 }
 .bolinhas div:hover{
-    background: blue;
+    background: aqua;
 }
 .imgAtual{
     transition: all 0.5s;
-    background: red;
+    background: aqua;
 }
 /*ANÚNCIOS*/
 .anuncios{
